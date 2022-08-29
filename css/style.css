@@ -1,0 +1,78 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    background-image: url("../img/hatter.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: whitesmoke;
+    font-size: larger;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+nav::after {
+    content: "";
+    clear: both;
+    display: table;
+    color: white;
+}
+
+li {
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: xx-large;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: lightgrey;
+    font-size: x-large;
+}
+
+nav a:hover {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    padding: 0 10px;
+}
+
+nav a:visited {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    padding: 0 10px;
+}
+
+img {
+    border-radius: 8px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+input {
+    background-color: lightgrey;
+    width: auto;
+    border-radius: 20px;
+    height: 30px;
+}
+
+#gallery{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#gallery img {
+    border-radius: 5px;
+    margin: 20px 0px 15px 0px;
+}
